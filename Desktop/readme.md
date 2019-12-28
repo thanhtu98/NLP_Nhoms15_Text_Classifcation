@@ -5,12 +5,12 @@
 +Run file demo.py để thực hiện phân loại văn bản, với đầu vào nhập từ bàn phím:
 chạy bằng lệnh: python3 demo.py
 
-+Cấu trúc của project:
++Các bước thực hiện project( run file bằng lệnh python3 + tên file):
 
-dump_data.py : dump data ra file.
+1. dump_data.py : dump data ra file.
 
-feature_Engineering.py : chuyển dữ liệu ở dạng ký tự về dữ liệu số, sau đó lưu ra file.
+2. feature_Engineering.py : chuyển dữ liệu ở dạng ký tự về dữ liệu số, sau đó lưu ra file.
 
-train_model.py : train data bằng 4 model sau đó lưu lại model ra file.
+3. train_model.py : train data bằng 4 model sau đó lưu lại model ra file.
 
-demo.py : thực hiện phân loại văn bản nhập từ bàn phím.
+4. demo.py : thực hiện phân loại văn bản nhập từ bàn phím.
