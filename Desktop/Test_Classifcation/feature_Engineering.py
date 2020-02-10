@@ -1,23 +1,6 @@
 import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD
-from sklearn import svm
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.naive_bayes import BernoulliNB
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
-from sklearn import metrics
-from sklearn.metrics import accuracy_score
-from sklearn.model_selection import train_test_split
-
-from keras.layers import GRU
-from keras.layers import Dense
-from keras.layers import Input
-from keras.layers import Reshape
-from keras.models import Model
-from keras.optimizers import Adam
-from keras import optimizers
-
 
 
 X_data = pickle.load(open('X_data.pkl', 'rb'))
