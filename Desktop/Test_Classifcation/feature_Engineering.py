@@ -24,3 +24,4 @@ X_test_tfidf_ngram_svd = svd_ngram.transform(X_test_tfidf_ngram)
 
 pickle.dump(X_data_tfidf_ngram_svd, open('X_data_tfidf_ngram_svd.pkl', 'wb'))
 pickle.dump(X_test_tfidf_ngram_svd, open('X_test_tfidf_ngram_svd.pkl', 'wb'))
+pickle.dump(svd_ngram, open'(svd_vect_obj', 'wb'))
